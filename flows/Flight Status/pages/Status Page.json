@@ -1,0 +1,17 @@
+{
+  "name": "13eeeb3f-2295-4823-88f6-42d7864c064b",
+  "displayName": "Status Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Checking status of your flight..." ]
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "flight-status",
+    "tag": "status of the flight"
+  }
+}

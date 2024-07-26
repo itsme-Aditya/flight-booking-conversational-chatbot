@@ -1,0 +1,10 @@
+{
+  "name": "ab8a89b9-e525-4184-8193-c860331715aa",
+  "displayName": "Planning City",
+  "parameters": [ {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

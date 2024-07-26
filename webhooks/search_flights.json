@@ -1,0 +1,11 @@
+{
+  "name": "0bb3f3f2-838a-4548-b8b2-3c5e4015d603",
+  "displayName": "search_flights",
+  "genericWebService": {
+    "uri": "https://us-central1-flight-booking-426706.cloudfunctions.net/flight_search",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

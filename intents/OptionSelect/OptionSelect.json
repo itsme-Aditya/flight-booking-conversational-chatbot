@@ -1,0 +1,10 @@
+{
+  "name": "b92c5544-b644-41a1-a75a-a3bb859d46cd",
+  "displayName": "OptionSelect",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

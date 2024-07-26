@@ -1,0 +1,10 @@
+{
+  "name": "7ac2c836-2964-4160-97a6-d8198b6e8f40",
+  "displayName": "GetTime",
+  "parameters": [ {
+    "id": "time",
+    "entityType": "@sys.time"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 39
+}

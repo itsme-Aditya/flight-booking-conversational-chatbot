@@ -1,0 +1,11 @@
+{
+  "name": "ea2e10dc-386c-442d-9109-ed7e4f15ec9b",
+  "displayName": "Correct-city",
+  "genericWebService": {
+    "uri": "https://us-central1-flight-booking-426706.cloudfunctions.net/validatecityname",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

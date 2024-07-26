@@ -1,0 +1,11 @@
+{
+  "name": "c247b98c-d9aa-4a8e-965b-e7eb0a3a2365",
+  "displayName": "flight-status",
+  "genericWebService": {
+    "uri": "https://us-central1-flight-booking-426706.cloudfunctions.net/flight_status",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}

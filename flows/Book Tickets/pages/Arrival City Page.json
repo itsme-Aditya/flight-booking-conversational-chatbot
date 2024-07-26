@@ -1,0 +1,35 @@
+{
+  "name": "249d0485-6f69-4b89-bada-e5021e218c05",
+  "displayName": "Arrival City Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please provide your arrival city.", "Where to ?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "GetArrivalAirport",
+    "triggerFulfillment": {
+      "webhook": "correct_arrival",
+      "tag": "validate_arrival_city"
+    },
+    "name": "f7cd6d4f-bc5d-4723-88e3-ac586ec178eb"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Couldn't understand can you please rephrase ?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f5c047a2-3901-4f4e-b385-d80a5e300ee9"
+  } ]
+}

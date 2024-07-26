@@ -1,0 +1,13 @@
+{
+  "name": "75d9904e-13f7-4bd4-bd9a-515332df73df",
+  "displayName": "GetDepartureAndArrival",
+  "parameters": [ {
+    "id": "geo-city1",
+    "entityType": "@sys.geo-city"
+  }, {
+    "id": "geo-city2",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 25
+}

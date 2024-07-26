@@ -1,0 +1,26 @@
+{
+  "name": "23e9c63b-53eb-460a-87d8-d8d4e4d42241",
+  "displayName": "Flight Options Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Looking for flights..." ]
+      },
+      "languageCode": "en"
+    } ],
+    "webhook": "search_flights",
+    "tag": "flight_looker"
+  },
+  "transitionRoutes": [ {
+    "intent": "OptionSelect",
+    "triggerFulfillment": {
+      "webhook": "booking_url",
+      "tag": "booking"
+    },
+    "targetPage": "Thankyou Page",
+    "name": "93f87e7f-e7ee-4a2b-98b1-1b20b63ee177"
+  } ]
+}

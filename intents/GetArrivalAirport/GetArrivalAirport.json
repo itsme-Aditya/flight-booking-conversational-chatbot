@@ -1,0 +1,10 @@
+{
+  "name": "45d2940a-d016-4ab7-9c6c-6b56a3dee54a",
+  "displayName": "GetArrivalAirport",
+  "parameters": [ {
+    "id": "geo-city2",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 44
+}

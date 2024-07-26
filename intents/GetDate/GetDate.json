@@ -1,0 +1,10 @@
+{
+  "name": "a1366008-a646-4acd-8fd3-d1577ba2cab5",
+  "displayName": "GetDate",
+  "parameters": [ {
+    "id": "date",
+    "entityType": "@sys.date"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 42
+}

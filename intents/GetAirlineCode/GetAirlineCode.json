@@ -1,0 +1,10 @@
+{
+  "name": "aee65873-7999-46f6-9e6f-cf65981cdddd",
+  "displayName": "GetAirlineCode",
+  "parameters": [ {
+    "id": "airline-code",
+    "entityType": "@airline-code"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 4
+}

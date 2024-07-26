@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "You are travel planning assistant $last-user-utterance\nPlease do not ask any follow up question, make assumptions as necessary.",
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,51 @@
+{
+  "trainingPhrases": [ {
+    "id": "f6f53061-d5eb-4b58-8bef-e55465265584",
+    "parts": [ {
+      "text": "काफ़ी दिनों से बात नहीं हुई",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "hi"
+  }, {
+    "id": "326ea698-967e-4117-9eea-cf63d9a11e39",
+    "parts": [ {
+      "text": "नमस्कार",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "hi"
+  }, {
+    "id": "6282dbf9-2a72-4997-bf67-79ea281e5617",
+    "parts": [ {
+      "text": "नमस्ते",
+      "auto": true
+    } ],
+    "repeatCount": 4,
+    "languageCode": "hi"
+  }, {
+    "id": "5e51ac4d-ca86-438c-8b9f-31c7e7bee953",
+    "parts": [ {
+      "text": "क्या हाल है",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "hi"
+  }, {
+    "id": "0220aab7-119c-4cbe-95c0-102eadc60c5b",
+    "parts": [ {
+      "text": "सुनो, क्या हाल है",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "hi"
+  }, {
+    "id": "9c5cac01-e687-4e08-bdb2-01991432852f",
+    "parts": [ {
+      "text": "मेरी तरफ़ से नमस्ते",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "hi"
+  } ]
+}

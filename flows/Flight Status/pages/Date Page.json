@@ -1,0 +1,23 @@
+{
+  "name": "4531176f-8f41-4125-b67b-ca18a2a79a61",
+  "displayName": "Date Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please provide departure date of your flight" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "GetDate",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Status Page",
+    "name": "f93062b8-753e-4d08-8992-b7d14678bde1"
+  } ]
+}

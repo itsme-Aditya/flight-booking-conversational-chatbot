@@ -1,0 +1,15 @@
+{
+  "name": "5ff26e9b-e019-494f-b188-b0942d843ecc",
+  "displayName": "Thankyou Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Thank you and have a safe journey." ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

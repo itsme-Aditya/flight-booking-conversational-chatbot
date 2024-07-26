@@ -1,0 +1,11 @@
+{
+  "name": "c29a01f6-4984-46f7-8e15-475fab191062",
+  "displayName": "booking_url",
+  "genericWebService": {
+    "uri": "https://us-central1-flight-booking-426706.cloudfunctions.net/booking_url",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

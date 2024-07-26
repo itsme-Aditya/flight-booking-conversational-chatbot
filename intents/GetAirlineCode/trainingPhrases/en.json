@@ -1,0 +1,42 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "my airline code is "
+    }, {
+      "text": "6E",
+      "parameterId": "airline-code"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Code "
+    }, {
+      "text": "IG",
+      "parameterId": "airline-code"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Airline code is "
+    }, {
+      "text": "UK",
+      "parameterId": "airline-code",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My airline code is ",
+      "auto": true
+    }, {
+      "text": "AI",
+      "parameterId": "airline-code",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

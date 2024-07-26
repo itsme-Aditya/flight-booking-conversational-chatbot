@@ -1,0 +1,23 @@
+{
+  "name": "38d683f9-3897-43d1-aca5-425bbbc67dfe",
+  "displayName": "Flight Number Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please enter your flight number (3-4 digit)" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "GetFlightNumber",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Date Page",
+    "name": "72d6d0fe-a04d-4493-a1c8-1da8cc1392df"
+  } ]
+}

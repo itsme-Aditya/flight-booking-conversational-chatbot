@@ -1,0 +1,23 @@
+{
+  "name": "1f408bc4-0e0a-4d49-96f7-8056823d9aa9",
+  "displayName": "Flight ID Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Provide airline code" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "GetAirlineCode",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Flight Number Page",
+    "name": "d7f1d6b9-e71a-4f79-9122-b33e81ed2d3d"
+  } ]
+}

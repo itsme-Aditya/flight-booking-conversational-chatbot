@@ -1,0 +1,23 @@
+{
+  "name": "9df1d9dc-8ae9-49a0-94d9-ab97a4be6a2f",
+  "displayName": "Travel Tips Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "$request.generative.response" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "d7477147-ec5b-4abd-b767-d79848974aee"
+  } ]
+}

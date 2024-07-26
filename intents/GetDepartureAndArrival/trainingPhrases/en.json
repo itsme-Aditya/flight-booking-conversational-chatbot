@@ -1,0 +1,394 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Are there any flights from "
+    }, {
+      "text": "Jaipur",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Kolkata",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Find flights from "
+    }, {
+      "text": "Mumbai",
+      "parameterId": "geo-city1"
+    }, {
+      "text": " to "
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Book a flight from "
+    }, {
+      "text": "city1",
+      "parameterId": "geo-city1"
+    }, {
+      "text": " to "
+    }, {
+      "text": "city2",
+      "parameterId": "geo-city2"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need a flight from "
+    }, {
+      "text": "city1",
+      "parameterId": "geo-city1"
+    }, {
+      "text": " to "
+    }, {
+      "text": "city2",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Book a flight from "
+    }, {
+      "text": "Mumbai",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Mumbai",
+      "parameterId": "geo-city1"
+    }, {
+      "text": " to"
+    }, {
+      "text": " "
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Beijing",
+      "parameterId": "geo-city1"
+    }, {
+      "text": " to "
+    }, {
+      "text": "Tokyo",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Aurangabad",
+      "parameterId": "geo-city1"
+    }, {
+      "text": " to ",
+      "auto": true
+    }, {
+      "text": "Lucknow",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want a flight from "
+    }, {
+      "text": "Lucknow",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want a flight from "
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Mumbai",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Find the best flight from ",
+      "auto": true
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to ",
+      "auto": true
+    }, {
+      "text": "Mumbai",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Book my flight from "
+    }, {
+      "text": "Bangalore",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Goa",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need a ticket from "
+    }, {
+      "text": "Kolkata",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can you find a flight from ",
+      "auto": true
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to ",
+      "auto": true
+    }, {
+      "text": "Bangalore",
+      "parameterId": "geo-city2",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to fly from "
+    }, {
+      "text": "Chennai",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Search flights from "
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Chennai",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to travel from "
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city1"
+    }, {
+      "text": " to "
+    }, {
+      "text": "Jaipur",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Get me a flight from "
+    }, {
+      "text": "Mumbai",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Chennai",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need a flight from "
+    }, {
+      "text": "Bangalore",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Book a trip from "
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Are there any flights from ",
+      "auto": true
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to ",
+      "auto": true
+    }, {
+      "text": "Nagpur",
+      "parameterId": "geo-city2",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Show me flights from ",
+      "auto": true
+    }, {
+      "text": "Kolkata",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to ",
+      "auto": true
+    }, {
+      "text": "Lucknow",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Find flights from ",
+      "auto": true
+    }, {
+      "text": "Chennai",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to ",
+      "auto": true
+    }, {
+      "text": "Bangalore",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need a flight from "
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Mumbai",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Book a flight from "
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " to "
+    }, {
+      "text": "Kolkata",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

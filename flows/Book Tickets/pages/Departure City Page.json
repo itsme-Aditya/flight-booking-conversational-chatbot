@@ -1,0 +1,42 @@
+{
+  "name": "e314b9cb-cd59-4516-9d27-86013943bf20",
+  "displayName": "Departure City Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please provide your departure city.", "You want a flight from ?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "GetDepartureAndArrival",
+    "triggerFulfillment": {
+      "webhook": "Correct-city",
+      "tag": "validate_city"
+    },
+    "name": "1e8937a7-2a1b-4b77-9e79-b8fe6a9a3df1"
+  }, {
+    "intent": "GetDepartureAirport",
+    "triggerFulfillment": {
+      "webhook": "Correct_departure",
+      "tag": "validate_departure_city"
+    },
+    "name": "78095b13-e854-44ba-b7c8-e54e3f8a8d6e"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Couldn't understand can you please rephrase ?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d3b21731-9e93-4943-813a-81b28fd55e7f"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "82f4d0b8-f7a2-480e-8458-f76d36b05f86",
+  "displayName": "GetFlightNumber",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 7
+}

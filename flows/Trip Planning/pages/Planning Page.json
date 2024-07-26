@@ -1,0 +1,26 @@
+{
+  "name": "215ab519-bf06-424e-9095-4b031496697a",
+  "displayName": "Planning Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "You want to plan your travel to which city ?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Planning City",
+    "triggerFulfillment": {
+      "generators": [ {
+        "generator": "projects/flight-booking-426706/locations/global/agents/2e8d6964-eeea-4dd8-8c8d-2c60c6b61dfc/generators/be99d16f-7977-449f-a957-e2d86f47a6d5",
+        "outputParameter": "$request.generative.response"
+      } ]
+    },
+    "targetPage": "Travel Tips Page",
+    "name": "87276d23-dcbf-4ad8-8dcf-923d441a9015"
+  } ]
+}

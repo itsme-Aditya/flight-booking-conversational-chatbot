@@ -1,0 +1,236 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Starting from ",
+      "auto": true
+    }, {
+      "text": "Trivandrum",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Flying out of ",
+      "auto": true
+    }, {
+      "text": "New Delhi International",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Leaving from ",
+      "auto": true
+    }, {
+      "text": "Mumabi",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Bangalore",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Chennai",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Delhi",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Going from ",
+      "auto": true
+    }, {
+      "text": "Lucknow",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Taking off from ",
+      "auto": true
+    }, {
+      "text": "Cochin",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Departing from ",
+      "auto": true
+    }, {
+      "text": "Surat",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My flight is from ",
+      "auto": true
+    }, {
+      "text": "Ahmedabad",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Departing from ",
+      "auto": true
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Flying out of ",
+      "auto": true
+    }, {
+      "text": "Chennai",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Leaving from ",
+      "auto": true
+    }, {
+      "text": "Bangalore",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I will go from ",
+      "auto": true
+    }, {
+      "text": "New",
+      "parameterId": "geo-city1",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to fly from ",
+      "auto": true
+    }, {
+      "text": "Aurangabad",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I will fly from ",
+      "auto": true
+    }, {
+      "text": "Nagpur",
+      "parameterId": "geo-city1",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Amritsar",
+      "parameterId": "geo-city1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Jaipur",
+      "parameterId": "geo-city1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I will leave from "
+    }, {
+      "text": "Mumbai",
+      "parameterId": "geo-city1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to go from "
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to book a flight from "
+    }, {
+      "text": "Patna",
+      "parameterId": "geo-city1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am flying from "
+    }, {
+      "text": "Kolkata",
+      "parameterId": "geo-city1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My departure airport is "
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city1"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

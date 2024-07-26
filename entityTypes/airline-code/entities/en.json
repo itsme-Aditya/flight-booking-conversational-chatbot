@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "AI",
+    "synonyms": [ "AI" ],
+    "languageCode": "en"
+  }, {
+    "value": "UK",
+    "synonyms": [ "UK" ],
+    "languageCode": "en"
+  }, {
+    "value": "6E",
+    "synonyms": [ "6E" ],
+    "languageCode": "en"
+  }, {
+    "value": "IG",
+    "synonyms": [ "IG" ],
+    "languageCode": "en"
+  } ]
+}

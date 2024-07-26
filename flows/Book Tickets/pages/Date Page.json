@@ -1,0 +1,35 @@
+{
+  "name": "7ff7a983-4988-4a5c-be1f-05c8c2344dc5",
+  "displayName": "Date Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "On what date would you like to travel ?", "When would you like to travel ?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "GetDate",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Flight Options Page",
+    "name": "19e0a761-8ce5-4b70-9e5f-dde81e262289"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Couldn't understand can you please rephrase ?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "b8e9d15b-5e2d-48a7-8ce0-106a934b73a8"
+  } ]
+}

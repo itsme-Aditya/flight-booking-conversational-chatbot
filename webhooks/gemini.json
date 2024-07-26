@@ -1,0 +1,11 @@
+{
+  "name": "854e33c1-faf9-4d75-85c5-55fa45fbde9a",
+  "displayName": "gemini",
+  "genericWebService": {
+    "uri": "https://us-central1-flight-booking-426706.cloudfunctions.net/gemini",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "12500d95-0432-43c0-86b3-fc2eb8a652d3",
+  "displayName": "Correct_departure",
+  "genericWebService": {
+    "uri": "https://us-central1-flight-booking-426706.cloudfunctions.net/validatecity1",
+    "webhookType": "STANDARD"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

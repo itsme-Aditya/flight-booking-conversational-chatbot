@@ -1,0 +1,11 @@
+{
+  "name": "be99d16f-7977-449f-a957-e2d86f47a6d5",
+  "displayName": "Travel Planner",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128
+  },
+  "llmModelSettings": {
+    "model": "gemini-1.5-flash"
+  }
+}

@@ -1,0 +1,421 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "to "
+    }, {
+      "text": "Kolkata",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "to "
+    }, {
+      "text": "Las Vegas",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "to "
+    }, {
+      "text": "Chennai",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "to "
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am heading to ",
+      "auto": true
+    }, {
+      "text": "Chennai",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Ending my journey in ",
+      "auto": true
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My destination point is ",
+      "auto": true
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Traveling to ",
+      "auto": true
+    }, {
+      "text": "Raipur",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My destination airport is ",
+      "auto": true
+    }, {
+      "text": "Lucknow",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Flying towards ",
+      "auto": true
+    }, {
+      "text": "Cochin",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am booking a flight to ",
+      "auto": true
+    }, {
+      "text": "Chennai",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Heading to ",
+      "auto": true
+    }, {
+      "text": "Bangalore",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Chandigarh",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Raipur",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Vizag",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Vijayawada",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Bhopal",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Indore",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Trivandrum",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Lucknow",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Cochin",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Surat",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Ahmedabad",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Chennai",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Traveling to ",
+      "auto": true
+    }, {
+      "text": "Goa",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My flight lands in ",
+      "auto": true
+    }, {
+      "text": "Shimla",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Flying into ",
+      "auto": true
+    }, {
+      "text": "Mumbai",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Reaching ",
+      "auto": true
+    }, {
+      "text": "Hyderabad",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Going to ",
+      "auto": true
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Flight to ",
+      "auto": true
+    }, {
+      "text": "Bangalore",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Destination is ",
+      "auto": true
+    }, {
+      "text": "Kolkata",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Arriving in ",
+      "auto": true
+    }, {
+      "text": "Los Angeles",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Landing in ",
+      "auto": true
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Hyderabad",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Kolkata",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Mumbai",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Pune",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to fly to ",
+      "auto": true
+    }, {
+      "text": "Delhi",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Shimla",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Goa",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My arrival airport is ",
+      "auto": true
+    }, {
+      "text": "Kolkata",
+      "parameterId": "geo-city2",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Book flight to "
+    }, {
+      "text": "Banglore",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to reach "
+    }, {
+      "text": "Pune",
+      "parameterId": "geo-city2"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am flying to "
+    }, {
+      "text": "Los Angles",
+      "parameterId": "geo-city2"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

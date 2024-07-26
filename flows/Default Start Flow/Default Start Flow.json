@@ -1,0 +1,81 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "How can I help you today? You can ask about your query in a few words or refer to the below frequently explored topics\n\n- Book flight tickets.\n- Flight status.\n- Journey or trip planning.\n\nPlease let me know how I can assist you today." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "नमस्ते!", "नमस्कार!", "आपका दिन शुभ हो!" ]
+        },
+        "languageCode": "hi"
+      } ]
+    },
+    "name": "8699b328-6914-4d65-a065-f7ac5d17c142"
+  }, {
+    "intent": "BookTickets",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Book Tickets",
+    "name": "f9654216-2ad7-465f-9afe-fbc778bef790"
+  }, {
+    "intent": "FlightStatus",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Flight Status",
+    "name": "24778507-d37c-4726-bfd9-843c9565d3ba"
+  }, {
+    "intent": "TripPlanner",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Trip Planning",
+    "name": "0b522758-89ac-4004-853c-aaae739e3b7c"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "मुझे समझ नहीं आया. क्या आप अपनी बात दोहरा सकते हैं?", "आपने क्या कहा, मुझे समझ नहीं आया. फिर से कहें?", "माफ़ करें, क्या आप अपनी बात दोहरा सकते हैं?", "माफ़ करें, क्या आप अपनी बात फिर से कह सकते हैं?", "क्या आप अपनी बात दोहरा सकते हैं?", "माफ़ करें, मुझे समझ नहीं आया|", "माफ़ करें, क्या कहा आपने?", "एक बार फिर से कह सकते हैं?", "क्या कहा आपने?", "एक बार फिर से कहिए?", "मुझे समझ नहीं आया|" ]
+        },
+        "languageCode": "hi"
+      } ]
+    },
+    "name": "191e8016-7aaa-4c34-a31d-9266b2af7abe"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "मुझे समझ नहीं आया. क्या आप अपनी बात दोहरा सकते हैं?", "आपने क्या कहा, मुझे समझ नहीं आया. फिर से कहें?", "माफ़ करें, क्या आप अपनी बात दोहरा सकते हैं?", "माफ़ करें, क्या आप अपनी बात फिर से कह सकते हैं?", "क्या आप अपनी बात दोहरा सकते हैं?", "माफ़ करें, मुझे समझ नहीं आया|", "माफ़ करें, क्या कहा आपने?", "एक बार फिर से कह सकते हैं?", "क्या कहा आपने?", "एक बार फिर से कहिए?", "मुझे समझ नहीं आया|" ]
+        },
+        "languageCode": "hi"
+      } ]
+    },
+    "name": "c537ad71-a080-4df7-bcbe-cf6f48f27ba2"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

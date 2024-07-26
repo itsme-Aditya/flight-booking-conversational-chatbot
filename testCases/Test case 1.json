@@ -1,0 +1,65 @@
+{
+  "name": "e0cd5c74-dcdb-44a2-abca-a6edd2b9661d",
+  "displayName": "Test case 1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "How can I help you today? You can ask about your query in a few words or refer to the below frequently explored topics\n\n- Book flight tickets.\n- Flight status.\n- Journey or trip planning.\n\nPlease let me know how I can assist you today." ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "travel planning"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "TripPlanner"
+      },
+      "currentPage": {
+        "name": "Planning Page",
+        "flow": "Trip Planning"
+      },
+      "textResponses": [ {
+        "text": [ "You want to plan your travel to which city ?" ]
+      } ],
+      "currentFlow": {
+        "name": "Trip Planning"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1720601897,
+    "nanos": 173094000
+  },
+  "testConfig": {
+    "trackingParameters": [ "geo-city" ],
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

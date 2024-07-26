@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agivant Airlines</title>
+    <!-- Include Dialogflow Messenger styles -->
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <!-- Include Dialogflow Messenger script -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <!-- Custom styles for Dialogflow Messenger -->
+    <style>
+        df-messenger {
+            z-index: 999;
+            position: fixed;
+            bottom: 16px;
+            right: 16px;
+            --df-messenger-font-color: #000;
+            --df-messenger-font-family: 'Google Sans', Arial, sans-serif;
+            --df-messenger-chat-background: #f3f6fc;
+            --df-messenger-message-user-background: #C8E6C9;
+            --df-messenger-message-bot-background: #C6DAFC;
+        }
+
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark text */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #004080; /* Blue header */
+            color: #fff; /* White text */
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 2rem 0;
+            background-color: #fff; /* White sections */
+            border-bottom: 1px solid #ccc; /* Light border */
+        }
+
+        #hero {
+            text-align: center;
+            height: 300px; /* Adjust height as needed */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #6a97c7; /* Blue hero background */
+            color: #ffffff; /* White text */
+        }
+
+        .hero-content {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        label, input, button {
+            margin: 0.5rem 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007bff; /* Blue button */
+            color: #fff;
+            border: none;
+            padding: 0.5rem;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #004080; /* Blue footer */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Logo styles */
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Agivant Logo.png" alt="Airline Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#booking">Book a Flight</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Agivant Airlines</h2>
+            <p>Your journey begins with us!</p>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2>Book a Flight</h2>
+        <form id="booking-form">
+            <label for="origin">Origin:</label>
+            <input type="text" id="origin" name="origin" required>
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+            <label for="date">Departure Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Search Flights</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For any queries, contact us at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Agivant Airlines. All rights reserved.</p>
+    </footer>
+
+    <!-- Initialize Dialogflow Messenger -->
+    <df-messenger
+      project-id="flight-booking-426706"
+      agent-id="2e8d6964-eeea-4dd8-8c8d-2c60c6b61dfc"
+      language-code="en"
+      max-query-length="-1">
+      <df-messenger-chat-bubble
+          chat-title="Your Flight Booking Companion">
+      </df-messenger-chat-bubble>
+    </df-messenger>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Dialogflow Messenger initialized');
+        });
+
+        window.addEventListener('dfMessengerLoaded', function(event) {
+            console.log('Dialogflow Messenger Loaded');
+        });
+
+        window.addEventListener('dfMessengerOpen', function(event) {
+            console.log('Dialogflow Messenger Opened');
+        });
+
+        window.addEventListener('dfMessengerClose', function(event) {
+            console.log('Dialogflow Messenger Closed');
+        });
+
+        window.addEventListener('dfMessengerMessageSent', function(event) {
+            console.log('Message Sent:', event.detail.message);
+        });
+
+        window.addEventListener('dfMessengerMessageReceived', function(event) {
+            console.log('Message Received:', event.detail.message);
+        });
+    </script>
+</body>
+</html>
